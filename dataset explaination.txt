@@ -11,6 +11,9 @@ Shortining_Service
 having_At_Symbol:
 	-1: Phishing (has @)
 	 1: Not-Phishing (doesn't have @)
+double_slash_redirecting
+	 -1: Phishing (has //)
+	  1: Not-Phishing (doesn't have //)
 Result
 	-1: Phishing
 	 1: Not-Phishing
