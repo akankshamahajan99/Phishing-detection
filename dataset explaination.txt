@@ -21,6 +21,10 @@ having_Sub_Domain
 	-1: Phishing (more than 2 sub domains)
 	 0: Suspicious (1 or 2 sub domains)
 	 1: Not-Phishing (no sub domains)
+SSLfinal_State
+	-1: Phishing ()
+	 0: Suspicious (https and not trusted issuer) or (https and trusted issuer and age of certi < 1)
+	 1: Not-Phishing (https and trusted issuer and age of certi >=1)
 Result
 	-1: Phishing
 	 1: Not-Phishing
