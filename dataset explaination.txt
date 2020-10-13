@@ -31,6 +31,9 @@ Domain_registeration_length
 age_of_domain
 	-1: Phishing (age< 180 days)
 	 1: Not-Phishing (age >= 180 days)
+Favicon
+	-1: Phishing (Favicon from external source)
+	 1: Not-Phishing ()
 Result
 	-1: Phishing
 	 1: Not-Phishing
