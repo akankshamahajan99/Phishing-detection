@@ -2,9 +2,12 @@ having_IP_Address
 	-1:	Phishing (has IP address 26.58.125.43)
 	 1:	Not-Phishing
 URL_Length
-	 -1: Phishing (len < 54)
-	  0: Suspicious (54 <= len <= 75)
-	  1: Not-Phishing (len > 75)
+	-1: Phishing (len < 54)
+	 0: Suspicious (54 <= len <= 75)
+	 1: Not-Phishing (len > 75)
+Shortining_Service
+	-1: Phishing (shortened)
+	 1: Not-Phishing (not shortened)
 Result
-	 -1: Phishing
-	  1: Not-Phishing
+	-1: Phishing
+	 1: Not-Phishing
