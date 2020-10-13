@@ -17,6 +17,10 @@ double_slash_redirecting
 Prefix_Suffix
 	-1: Phishing (has -)
 	 1: Not-Phishing (doesn't have -)
+having_Sub_Domain
+	-1: Phishing (more than 2 sub domains)
+	 0: Suspicious (1 or 2 sub domains)
+	 1: Not-Phishing (no sub domains)
 Result
 	-1: Phishing
 	 1: Not-Phishing
