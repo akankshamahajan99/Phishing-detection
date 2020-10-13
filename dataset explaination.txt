@@ -8,6 +8,9 @@ URL_Length
 Shortining_Service
 	-1: Phishing (shortened)
 	 1: Not-Phishing (not shortened)
+having_At_Symbol:
+	-1: Phishing (has @)
+	 1: Not-Phishing (doesn't have @)
 Result
 	-1: Phishing
 	 1: Not-Phishing
