@@ -25,6 +25,12 @@ SSLfinal_State
 	-1: Phishing ()
 	 0: Suspicious (https and not trusted issuer) or (https and trusted issuer and age of certi < 1)
 	 1: Not-Phishing (https and trusted issuer and age of certi >=1)
+Domain_registeration_length
+	-1: Phishing (expiration date <= 365 days)
+	 1: Not-Phishing (expiration date > 365 days)
+age_of_domain
+	-1: Phishing (age< 180 days)
+	 1: Not-Phishing (age >= 180 days)
 Result
 	-1: Phishing
 	 1: Not-Phishing
